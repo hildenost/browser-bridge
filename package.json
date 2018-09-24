@@ -1,0 +1,19 @@
+{
+  "name": "browser-bridge",
+  "version": "1.0.0",
+  "description": "Small in-browser bridge example JavaScript app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hildenost/browser-bridge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hildenost/browser-bridge/issues"
+  },
+  "homepage": "https://github.com/hildenost/browser-bridge#readme"
+}
