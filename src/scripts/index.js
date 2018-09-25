@@ -1,8 +1,9 @@
-let app = new PIXI.Application({
-	width: 256,
-	height: 350
-	}
-);
+import PIXI from '../pixi.min';
+
+const app = new PIXI.Application({
+  width: 256,
+  height: 350,
+});
 
 document.body.appendChild(app.view);
 

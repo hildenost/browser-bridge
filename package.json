@@ -4,7 +4,10 @@
   "description": "Small in-browser bridge example JavaScript app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/ -d lib/",
+    "prepublish": "npm run build",
+    "flow": "flow"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,16 @@
   "bugs": {
     "url": "https://github.com/hildenost/browser-bridge/issues"
   },
-  "homepage": "https://github.com/hildenost/browser-bridge#readme"
+  "homepage": "https://github.com/hildenost/browser-bridge#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "flow-bin": "^0.81.0",
+    "prettier": "^1.14.3"
+  }
 }
